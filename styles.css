@@ -1,0 +1,42 @@
+* {
+  border: 2px dotted red;
+  }
+
+body {
+  margin: 0;
+}
+
+.header, footer, .section-one {
+  background-color: #1F2937;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  flex-grow: 1;
+}
+
+a, .hero-subtext {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+}
