@@ -1,3 +1,6 @@
+* {
+  border: 2px dotted red;
+}
 
 body {
   margin: 0;
@@ -78,5 +81,18 @@ ul {
 button, .section-four {
   background-color: #3882F6;
   color: white;
+}
+
+button {
   border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.section-one-one button {
+  border-color: transparent;
+}
+
+.section-four button {
+  border-color: white;
 }
