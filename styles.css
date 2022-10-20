@@ -1,9 +1,7 @@
-* {
-  border: 2px dotted red;
-  }
 
 body {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .header, footer, .section-one {
@@ -39,4 +37,46 @@ ul {
   padding: 0;
   margin: 0;
   gap: 10px;
+}
+
+.hero-text {
+  font-weight:  1000;
+  color: #F9FAF8;
+  font-size: 48px;
+}
+
+.section-one {
+  display: flex;
+  padding: 50px;
+  gap: 50px;
+  justify-content: center;
+}
+
+.section-one-one {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 500px;
+  gap: 5px;
+}
+
+.placeholder {
+  width: 500px;
+  height: auto;
+  color: white;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo, .section-one-one {
+  display: flex;
+}
+
+button, .section-four {
+  background-color: #3882F6;
+  color: white;
+  border-radius: 10px;
 }
