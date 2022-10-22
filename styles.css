@@ -193,3 +193,11 @@ button {
   font-size: 18px;
   color: #E5E7EB;
 }
+
+footer {
+  color: #E5E7EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+}
