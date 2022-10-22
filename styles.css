@@ -129,3 +129,27 @@ button {
   font-weight: 1000;
   color: #1F2937;
 }
+
+.section-three {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 275px;
+  padding-right: 275px;
+}
+
+.section-three-quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.section-three-author {
+  font-weight: bold;
+  font-size: 25px;
+  align-self: flex-end;
+}
