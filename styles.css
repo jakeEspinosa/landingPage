@@ -74,7 +74,7 @@ ul {
   display: flex;
 }
 
-button, .section-four {
+button, .call-to-action {
   background-color: #3882F6;
   color: white;
 }
@@ -83,6 +83,8 @@ button {
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .section-one-one button {
@@ -152,4 +154,42 @@ button {
   font-weight: bold;
   font-size: 25px;
   align-self: flex-end;
+}
+
+.call-to-action {
+  display: flex;
+  gap: 150px;
+  padding-left: 145px;
+  padding-right: 145px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  align-items: center;
+  margin: 75px;
+}
+
+.call-to-action button {
+  width: 83px;
+  height: 33px;
+}
+
+.section-four-main {
+  font-weight: bold;
+}
+
+.section-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.section-four-sub {
+  font-size: 18px;
+  color: #E5E7EB;
 }
